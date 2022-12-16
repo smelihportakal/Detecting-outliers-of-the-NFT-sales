@@ -1,1 +1,3 @@
 # Detecting-outliers-of-the-NFT-sales
+
+I did task 2 which is about outliers detection of NFT sales. First, my code read data from csv file by using pandas. Then, the code split the dataframe to two dataframe for each collection. Code make box-plot for each collection. For each collection I use IQR method to detect upper limits and lower limits for not-outliers. Then, if price less than lower limit and higher than upper limit, code remove these outliers in collections. Then, code make box-plot again. Moreover, the code extract outliers and data which its price is 0. In the end, the code detected that for collection 1 lower limit is -4.702485e+20 and upper limit is 7.848675e+20 and for collection 2 lower limit is -1.1525e+19 and higher limit is 2.7715e+19.
